@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+mainClassName = 'com.github.m5rian.cloudstudios.CloudStudios'
+
+repositories {
+    mavenCentral()
+    jcenter()
+
+    maven {
+        name 'm2-dv8tion'
+        url 'https://m2.dv8tion.net/releases'
+    }
+
+    maven {
+        url 'https://m5rian.jfrog.io/artifactory/java'
+    }
+}
+
+dependencies {
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    implementation group: 'net.dv8tion', name: 'JDA', version: '4.3.0_289' // JDA
+    implementation group: 'com.github.m5rian', name: 'JdaCommandHandler', version: '0.3.4' // JDA Command handler
+    implementation group: 'org.json', name: 'json', version: '20201115' // JSON
+    implementation group: 'commons-io', name: 'commons-io', version: '2.8.0' // Apache commons
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3' // Logback classic
+}

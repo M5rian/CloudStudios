@@ -1,0 +1,51 @@
+{
+  "token": "",
+  "guildId": "",
+  "prefix": "",
+  "colour": "",
+  "activities": {
+    "playing": []
+  },
+  "roles": {
+    "owner": 1000000000,
+    "administrator": [
+      1000000000,
+      1000000000
+    ],
+    "staff": [
+      1000000000,
+      1000000000
+    ],
+    "muted": 1000000000,
+    "botOwner": 1000000000,
+  },
+  "channels": {
+    "rules": 1000000000,
+    "welcome": 1000000000,
+    "_comment_": "For 'leveling' use 0 to use the current channel",
+    "leveling": 0
+  },
+  "categories": {
+    "voiceCall": 1000000000,
+    "tickets": 1000000000
+  },
+  "reactionRoles": [
+    {
+      "messageId": 1000000000,
+      "unicodeEmoji": "",
+      "roleId": 1000000000
+    },
+    {
+      "messageId": 1000000000,
+      "unicodeEmoji": "",
+      "roleId": 1000000000
+    }
+  ],
+  "banCases": [
+    {
+      "title": "",
+      "durationInMillis": 1000000000,
+      "description": ""
+    }
+  ]
+}
